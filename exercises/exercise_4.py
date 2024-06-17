@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input("Enter a 4 digit number?"))
 A1 = n // 1000
 A2 = (n%1000)//100
 A3 = (n % 100)//10
