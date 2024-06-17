@@ -1,4 +1,4 @@
-s = int(input())
+s = int(input("How much did the goods cost?"))
 bills_500 =s//500
 s %= 500
 bills_100 =s//100
