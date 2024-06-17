@@ -1,2 +1,5 @@
-# Exercise 1
-# Your solution comes here
+number = int(input("Enter a 5 digit number "))
+P1 = (number//10000)+((number//100)%10)+(number%10)
+print(P1)
+P2 = ((number//1000)%10)+((number//10)%10)
+print(str(P1)+str(P2))
